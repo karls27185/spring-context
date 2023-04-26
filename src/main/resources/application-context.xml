@@ -17,6 +17,7 @@
     </bean>
 
     <bean class="com.javastart.springcontext.CalculateCatStrengthBeanPostProcessor"/>
+    <bean class="com.javastart.springcontext.PureTransactionalHandlerBeanPostProcessor"/>
 
 
 </beans>

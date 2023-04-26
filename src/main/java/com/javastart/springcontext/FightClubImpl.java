@@ -5,6 +5,7 @@ package com.javastart.springcontext;
  * @link <a href="https://web.babayan.keenetic.link/">https://web.babayan.keenetic.link</a>
  */
 
+@PureTransactional
 public class FightClubImpl implements FightClub {
 
     private CombatCat loriCat;
